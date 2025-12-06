@@ -75,6 +75,7 @@ function displayWeather(data) {
     weatherIcon.alt = description;
 
     showImage();
+    document.getElementById('weather-container').classList.add('has-weather');
 
   }
 }
